@@ -1,0 +1,195 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" %>
+
+<%@ Import Namespace="CCAvenueIntegrationDL" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <script src="../../Scripts/crawler.js" type="text/javascript"></script>
+
+    <script src="../../Scripts/SpryMenuBar.js" type="text/javascript"></script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>
+        <asp:ContentPlaceHolder ID="TitleContent" runat="server">
+        </asp:ContentPlaceHolder>
+    </title>
+
+    <script type="text/javascript">        if (!window.qmad) { qmad = new Object(); qmad.binit = ""; qmad.bvis = ""; qmad.bhide = ""; }</script>
+
+    <!-- Add-On Settings -->
+
+    <script type="text/JavaScript">
+        /*******  Menu 0 Add-On Settings *******/
+        var a = qmad.qm0 = new Object();
+        // Sub Menu Fade Animation Add On
+        a.fade_in_frames = 20;
+        a.fade_out_frames = 20;
+        // Item Bullets Add On
+        a.ibullets_apply_to = "parent";
+        a.ibullets_main_image = "qtbordercaps_arrow_down_gray.gif";
+        a.ibullets_main_image_width = 8;
+        a.ibullets_main_image_height = 6;
+        a.ibullets_main_position_x = -16;
+        a.ibullets_main_position_y = -4;
+        a.ibullets_main_align_x = "right";
+        a.ibullets_main_align_y = "middle";
+        a.ibullets_sub_image = "qtbordercaps_arrow_right_gray.gif";
+        a.ibullets_sub_image_width = 6;
+        a.ibullets_sub_image_height = 8;
+        a.ibullets_sub_position_x = -12;
+        a.ibullets_sub_position_y = -2;
+        a.ibullets_sub_align_x = "right";
+        a.ibullets_sub_align_y = "middle";
+        /*[END-QA0]*/
+    </script>
+
+    <script src="/Scripts/AC_RunActiveContent.js" type="text/javascript"></script>
+
+    <link href="/Content/stylesheet.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/products.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/jquery.fancybox-1.3.4.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <table width="900" align="center" cellpadding="0" cellspacing="0" background="/images/bg.jpg">
+        <tr>
+            <th align="center" valign="top" scope="row">
+                <table width="900" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+                    <tr>
+                        <th height="106" align="left" valign="middle">
+                            <table width="216" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td height="67">
+                                        &nbsp;
+                                    </td>
+                                    <td align="center" valign="middle">
+                                        <a href="/Home/Index">
+                                            <img src="/images/logo.jpg" alt="" width="283" height="65" /></a>
+                                    </td>
+                                    <td>
+                                        <a href="Products/All">
+                                            <img src="/images/callus.jpg" alt="" /></a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </th>
+                        <th align="center" valign="top" scope="row">
+                            <table cellpadding="0" cellspacing="0" style="padding: 5px;">
+                                <tr>
+                                    <th style="width: 80px;">
+                                    </th>
+                                    <th scope="row" style="margin-left: 15px;">
+                                        <a href="/Home/Index">
+                                            <img src="/Images/menu/home.png" width="50" height="20" border="0" /></a>
+                                    </th>
+                                    <th scope="row" style="margin-left: 15px;">
+                                        <a href="/Home/About">
+                                            <img src="/Images/menu/aboutus.png" width="66" height="20" /></a>
+                                    </th>
+                                    <th scope="row" style="margin-left: 15px;">
+                                        <a href="/Home/News">
+                                            <img src="/Images/menu/newevents.png" width="96" height="20" /></a>
+                                    </th>
+                                    <th scope="row" style="margin-left: 15px;">
+                                        <a href="/Home/ContactUs">
+                                            <img src="/Images/menu/contactus.png" width="76" height="20" /></a>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th colspan="5" style="height: 10px;">
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th colspan="5">
+                                        <div class="UserInfo">
+                                            <% if (!HttpContext.Current.User.Identity.IsAuthenticated)
+                                               {%>
+                                            <a href="/Account/LogOn">Log on</a> | <a href="/Account/Register">Register</a>
+                                            <%
+                                                }
+                                               else
+                                               {%>
+                                            <a href="#">
+                                                <%= HttpContext.Current.User.Identity.Name %></a>| <a href="/Account/Myprofile">My profile</a>|
+                                            <img src="/Images/Cart.png" width="25px" height="25px" />
+                                            <a href="/ShoppingCart/ShowCart">Mycart</a> | <a href="/Account/LogOff">Log off</a>
+                                            <%
+                                                }%>
+                                        </div>
+                                    </th>
+                                </tr>
+                            </table>
+                        </th>
+                    </tr>
+                </table>
+                <table width="900" align="center" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td width="918" bgcolor="#EEEEEE">
+                            <ul id="MenuBar2" class="MenuBarHorizontal">
+                                <li><a href="#" class="req"><strong>Plants On Call</strong></a>
+                                    <ul>
+                                        <%  var scope = ObjectScopeProvider1.GetNewObjectScope();
+                                            List<Category> categories =
+                                                (from c in scope.GetOqlQuery<Category>().ExecuteEnumerable()
+                                                 where c.Deletedstatus == DeleteStatus.Working && c.Categorytype == Categorytype.General
+                                                 select c).ToList();
+                                            foreach (var category in categories)
+                                            { %>
+                                        <li><a href="/Products/<%= category.Name %>" class="req"><strong>
+                                            <%= category.Name %></strong></a></li>
+                                        <%
+                                            }
+                                        %>
+                                    </ul>
+                                </li>
+                                <li><a href="/Products/RentalPlants" class="req"><strong>Rental Plants</strong></a></li>
+                                <li><a href="/Products/gift-Plants" class="req"><strong>Gift A Plant</strong></a></li>
+                                <li><a href="/Products/ExoticPlants" class="req">Exotic Plants</a></li>
+                                <li><a href="/Products/AllGardenNeeds" class="req"><strong>All Garden Needs</strong></a></li>
+                                <li><a href="/Products/ImportExportPlants" class="req"><strong>Import-Export of Plants</strong></a></li>
+                                <li><a href="http://www.srigreenmakerss.com" target="_blank" class="req"><strong>Landscape
+                                    Service</strong></a></li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                </asp:ContentPlaceHolder>
+            </th>
+        </tr>
+        <tr>
+            <th bgcolor="#121212" scope="row">
+                <table width="100%" align="center" cellpadding="0" cellspacing="0" bgcolor="#121212">
+                    <tr>
+                        <th width="361" align="left" valign="middle" class="text" scope="row">
+                            <div align="left">
+                                <span class="style9">Copyrights Sri Green Sentei 2011</span></div>
+                        </th>
+                        <th width="105" class="text" scope="row">
+                            &nbsp;
+                        </th>
+                        <th width="422" align="center" valign="middle" class="text" scope="row">
+                            <p align="right" class="style9">
+                                <a href="sitemap.html">sitemap</a> | <a href="terms.html">terms and conditin</a>
+                                | <a href="policy.html">privact policy</a></p>
+                        </th>
+                    </tr>
+                </table>
+            </th>
+        </tr>
+    </table>
+
+    <script type="text/javascript">
+<!--
+        var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", { imgDown: "SpryAssets/SpryMenuBarDownHover.gif", imgRight: "SpryAssets/SpryMenuBarRightHover.gif" });
+        var MenuBar2 = new Spry.Widget.MenuBar("MenuBar2", { imgDown: "SpryAssets/SpryMenuBarDownHover.gif", imgRight: "SpryAssets/SpryMenuBarRightHover.gif" });
+//-->
+    </script>
+
+</body>
+</html>

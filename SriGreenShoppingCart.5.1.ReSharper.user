@@ -1,0 +1,620 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Views/d:Controlpanel/f:CustomerProfile.aspx" caret="0" fromTop="0" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Views/d:Controlpanel/f:DeletedCategories.aspx" caret="0" fromTop="0" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Views/d:Controlpanel/f:Editproduct.aspx" caret="698" fromTop="15" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Views/d:Controlpanel/f:LatestNews.aspx" caret="748" fromTop="18" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Views/d:Controlpanel/f:LogOn.aspx" caret="670" fromTop="8" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Views/d:Controlpanel/f:ProductList.aspx" caret="0" fromTop="0" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Views/d:Controlpanel/f:Products.aspx" caret="0" fromTop="0" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Views/d:Controlpanel/f:TransactionListajax.aspx" caret="0" fromTop="0" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Views/d:Products/f:AllGardenNeeds.aspx" caret="0" fromTop="0" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Views/d:Products/f:ProductsList.aspx" caret="0" fromTop="0" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Views/d:Products/f:products_list.ascx" caret="0" fromTop="0" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Views/d:Account/f:MyProfile.aspx" caret="6348" fromTop="12" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Views/d:Controlpanel/f:Transaction_list.ascx" caret="0" fromTop="0" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Views/d:Controlpanel/f:TransactionList.aspx" caret="0" fromTop="0" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Views/d:Shared/f:loadingpanel.ascx" caret="260" fromTop="4" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Views/d:Shared/f:Site.Master" caret="6395" fromTop="22" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Content/f:products.css" caret="0" fromTop="0" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Content/f:jquery.fancybox-1.3.4.css" caret="0" fromTop="0" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Views/d:Account/f:Register.aspx" caret="0" fromTop="0" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Views/d:Home/f:Index.aspx" caret="10009" fromTop="10" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Content/f:stylesheet.css" caret="0" fromTop="0" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Content/f:ajaxloading.css" caret="0" fromTop="0" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Controllers/f:AccountController.cs" caret="0" fromTop="0" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Views/d:Controlpanel/f:Home.aspx" caret="1164" fromTop="26" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/f:Web.config" caret="3695" fromTop="34" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Views/d:Controlpanel/f:LatestNewsEvents.aspx" caret="1115" fromTop="21" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Controllers/f:ControlpanelController.cs" caret="0" fromTop="0" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Views/d:Home/f:NewsandEvents.aspx" caret="341" fromTop="8" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Controllers/f:HomeController.cs" caret="1180" fromTop="35" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Views/d:Home/f:News.aspx" caret="524" fromTop="13" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Content/f:stylesheet.css" caret="5514" fromTop="18" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Content/f:stylesheet.css" caret="5514" fromTop="25" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Views/d:Home/f:Index.aspx" caret="7042" fromTop="17" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Content/f:stylesheet.css" caret="5514" fromTop="19" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Content/f:stylesheet.css" caret="5514" fromTop="8" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Content/f:stylesheet.css" caret="0" fromTop="0" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Views/d:Home/f:Index.aspx" caret="9985" fromTop="14" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Views/d:Home/f:Index.aspx" caret="11698" fromTop="36" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Views/d:Home/f:Index.aspx" caret="10009" fromTop="10" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Content/f:ajaxloading.css" caret="380" fromTop="2" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Content/f:ajaxloading.css" caret="380" fromTop="15" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Content/f:ajaxloading.css" caret="0" fromTop="0" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Controllers/f:AccountController.cs" caret="1691" fromTop="25" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Controllers/f:ControlpanelController.cs" caret="13049" fromTop="26" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/f:Web.config" caret="2043" fromTop="38" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/f:Web.config" caret="2043" fromTop="35" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/f:Web.config" caret="2043" fromTop="27" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/f:Web.config" caret="2043" fromTop="27" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/f:Web.config" caret="2330" fromTop="28" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Views/d:Controlpanel/f:Home.aspx" caret="1164" fromTop="26" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Views/d:Controlpanel/f:LatestNewsEvents.aspx" caret="0" fromTop="0" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Controllers/f:ControlpanelController.cs" caret="26244" fromTop="27" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/f:Web.config" caret="3695" fromTop="34" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Views/d:Controlpanel/f:LatestNewsEvents.aspx" caret="562" fromTop="11" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Views/d:Controlpanel/f:LatestNewsEvents.aspx" caret="701" fromTop="16" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Controllers/f:HomeController.cs" caret="1146" fromTop="28" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Controllers/f:HomeController.cs" caret="1599" fromTop="36" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Controllers/f:HomeController.cs" caret="1061" fromTop="13" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Views/d:Home/f:NewsandEvents.aspx" caret="341" fromTop="8" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Views/d:Home/f:News.aspx" caret="524" fromTop="13" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="public" priority="45" />
+      <Item value="int" priority="17" />
+      <Item value="string" priority="36" />
+      <Item value="double" priority="4" />
+      <Item value="static" priority="0" />
+      <Item value="MultiSelectList`0" priority="1" />
+      <Item value="new" priority="49" />
+      <Item value="List&lt;Product&gt;" priority="1" />
+      <Item value="Product`0" priority="16" />
+      <Item value="product" priority="31" />
+      <Item value="routes" priority="1" />
+      <Item value="RouteBase`0" priority="0" />
+      <Item value="try" priority="6" />
+      <Item value="return" priority="52" />
+      <Item value="ObjectScopeProvider1`0" priority="0" />
+      <Item value="scope" priority="63" />
+      <Item value="var" priority="20" />
+      <Item value="Guid`0" priority="9" />
+      <Item value="productId" priority="0" />
+      <Item value="products" priority="40" />
+      <Item value="from" priority="21" />
+      <Item value="where" priority="20" />
+      <Item value="c" priority="28" />
+      <Item value="IObjectScope`0" priority="3" />
+      <Item value="CCAvenueIntegrationDL" priority="5" />
+      <Item value="productUId" priority="3" />
+      <Item value="select" priority="17" />
+      <Item value="Telerik" priority="0" />
+      <Item value="OpenAccess" priority="0" />
+      <Item value="as" priority="2" />
+      <Item value="if" priority="58" />
+      <Item value="ActionResult`0" priority="25" />
+      <Item value="View`0" priority="28" />
+      <Item value="ViewData" priority="18" />
+      <Item value="Request" priority="7" />
+      <Item value="this" priority="1" />
+      <Item value="List" priority="13" />
+      <Item value="User`0" priority="19" />
+      <Item value="User" priority="7" />
+      <Item value="users" priority="17" />
+      <Item value="PreTransactionDetails`0" priority="6" />
+      <Item value="preTransactionDetailses" priority="3" />
+      <Item value="d" priority="2" />
+      <Item value="TransactionStatus`0" priority="1" />
+      <Item value="pretransactiondetails" priority="1" />
+      <Item value="else" priority="20" />
+      <Item value="e" priority="2" />
+      <Item value="Product" priority="2" />
+      <Item value="Id" priority="0" />
+      <Item value="PreTransactionDetails" priority="0" />
+      <Item value="using" priority="0" />
+      <Item value="Telerik.OpenAccess" priority="0" />
+      <Item value="UserControl`0" priority="0" />
+      <Item value="TitleContent" priority="0" />
+      <Item value="HttpContext`0" priority="0" />
+      <Item value="prod" priority="4" />
+      <Item value="i" priority="2" />
+      <Item value="Guid" priority="18" />
+      <Item value="Environment`0" priority="0" />
+      <Item value="Length" priority="1" />
+      <Item value="for" priority="0" />
+      <Item value="args" priority="0" />
+      <Item value="DateTime`0" priority="0" />
+      <Item value="DBNull`0" priority="2" />
+      <Item value="Category" priority="1" />
+      <Item value="transactiondetails" priority="6" />
+      <Item value="Pending" priority="1" />
+      <Item value="Redirect`0" priority="3" />
+      <Item value="foreach" priority="15" />
+      <Item value="index" priority="3" />
+      <Item value="submit" priority="0" />
+      <Item value="totalamount" priority="2" />
+      <Item value="Convert`0" priority="2" />
+      <Item value="ToCcAvenue`0" priority="0" />
+      <Item value="toccavenue" priority="0" />
+      <Item value="Math`0" priority="0" />
+      <Item value="Random`0" priority="0" />
+      <Item value="Action`0" priority="3" />
+      <Item value="FromCcAvenue`0" priority="2" />
+      <Item value="fromccavenue" priority="1" />
+      <Item value="List&lt;string&gt;" priority="0" />
+      <Item value="HttpContext" priority="0" />
+      <Item value="HttpRequestExtensions`0" priority="0" />
+      <Item value="result" priority="5" />
+      <Item value="Success" priority="1" />
+      <Item value="Declined" priority="0" />
+      <Item value="PostPoned" priority="0" />
+      <Item value="user" priority="6" />
+      <Item value="model" priority="20" />
+      <Item value="count" priority="3" />
+      <Item value="Response" priority="0" />
+      <Item value="Category`0" priority="14" />
+      <Item value="Products" priority="1" />
+      <Item value="RedirectToRoute`0" priority="0" />
+      <Item value="category" priority="22" />
+      <Item value="categoriesModel" priority="4" />
+      <Item value="ModelState" priority="4" />
+      <Item value="RedirectToAction`0" priority="6" />
+      <Item value="HttpVerbs`0" priority="0" />
+      <Item value="HttpPost" priority="2" />
+      <Item value="HttpGet" priority="4" />
+      <Item value="Model" priority="3" />
+      <Item value="CategoriesModel`0" priority="1" />
+      <Item value="categories" priority="21" />
+      <Item value="categoryid" priority="2" />
+      <Item value="class" priority="0" />
+      <Item value="DataType`0" priority="3" />
+      <Item value="DisplayName" priority="0" />
+      <Item value="ProductModel`0" priority="3" />
+      <Item value="CategoryName" priority="0" />
+      <Item value="NewsStyleUriParser`0" priority="2" />
+      <Item value="SelectListItem`0" priority="3" />
+      <Item value="SelectListItem" priority="0" />
+      <Item value="Products.js" priority="0" />
+      <Item value="m" priority="0" />
+      <Item value="productModel" priority="8" />
+      <Item value="SelectList`0" priority="1" />
+      <Item value="IList" priority="0" />
+      <Item value="true" priority="8" />
+      <Item value="categoryID" priority="4" />
+      <Item value="price" priority="4" />
+      <Item value="categoryname" priority="5" />
+      <Item value="HttpPostedFileBaseModelBinder`0" priority="1" />
+      <Item value="image" priority="5" />
+      <Item value="null" priority="11" />
+      <Item value="File`0" priority="3" />
+      <Item value="product_file" priority="1" />
+      <Item value="ID" priority="0" />
+      <Item value="CategoryID" priority="2" />
+      <Item value="files" priority="3" />
+      <Item value="Name" priority="0" />
+      <Item value="private" priority="2" />
+      <Item value="pageindex" priority="7" />
+      <Item value="GetProductList`0" priority="0" />
+      <Item value="products_list" priority="1" />
+      <Item value="Default`0" priority="0" />
+      <Item value="object" priority="0" />
+      <Item value="UrlParameter`0" priority="0" />
+      <Item value="LogOnModel`0" priority="0" />
+      <Item value="productUid" priority="0" />
+      <Item value="productID" priority="0" />
+      <Item value="Home" priority="0" />
+      <Item value="IFormatProvider`0" priority="1" />
+      <Item value="Selected" priority="0" />
+      <Item value="false" priority="3" />
+      <Item value="IServiceProvider`0" priority="0" />
+      <Item value="selectListItem" priority="5" />
+      <Item value="break" priority="5" />
+      <Item value="TagRenderMode`0" priority="0" />
+      <Item value="Status" priority="0" />
+      <Item value="catch" priority="1" />
+      <Item value="Exception`0" priority="1" />
+      <Item value="output" priority="0" />
+      <Item value="bool" priority="2" />
+      <Item value="username" priority="0" />
+      <Item value="enum" priority="0" />
+      <Item value="DeleteStatus`0" priority="0" />
+      <Item value="Recycled" priority="0" />
+      <Item value="Working" priority="8" />
+      <Item value="administrator" priority="0" />
+      <Item value="Categorytype`0" priority="0" />
+      <Item value="Special" priority="1" />
+      <Item value="General" priority="3" />
+      <Item value="Count`1" priority="0" />
+      <Item value="MyCart`0" priority="5" />
+      <Item value="MyCarts" priority="0" />
+      <Item value="mycart" priority="6" />
+      <Item value="myCarts" priority="3" />
+      <Item value="myCart" priority="1" />
+      <Item value="quantity" priority="1" />
+      <Item value="specialCategory" priority="2" />
+      <Item value="ProductsList" priority="0" />
+      <Item value="ExitFlag" priority="1" />
+      <Item value="id" priority="2" />
+      <Item value="UserList" priority="0" />
+      <Item value="customer" priority="2" />
+      <Item value="Html" priority="5" />
+      <Item value="loadingpanel" priority="0" />
+      <Item value="CustomerList.js" priority="0" />
+      <Item value="CustomerList" priority="0" />
+      <Item value="_List" priority="0" />
+      <Item value="Customer_List" priority="0" />
+      <Item value="Customerlistajax" priority="0" />
+      <Item value="custName" priority="0" />
+      <Item value="userList" priority="0" />
+      <Item value="customerList" priority="1" />
+      <Item value="ResultExecutedContext`0" priority="0" />
+      <Item value="pretransactions" priority="2" />
+      <Item value="transactionID" priority="4" />
+      <Item value="Completed" priority="0" />
+      <Item value="TransactionListajax" priority="0" />
+      <Item value="_list" priority="0" />
+      <Item value="subindex" priority="0" />
+      <Item value="preTransactionDetailse" priority="2" />
+      <Item value="randomNumner" priority="2" />
+      <Item value="do" priority="0" />
+      <Item value="adingpanel" priority="0" />
+      <Item value="TransactionList.js" priority="0" />
+      <Item value="products.css" priority="0" />
+      <Item value="transactions" priority="2" />
+      <Item value="switch" priority="0" />
+      <Item value="case" priority="2" />
+      <Item value="List&lt;MyCart&gt;" priority="0" />
+      <Item value="LatestnewsModel`0" priority="1" />
+      <Item value="LatestNews`0" priority="2" />
+      <Item value="latestNewses" priority="5" />
+      <Item value="Dictionary&lt;string,object&gt;" priority="0" />
+      <Item value="ValidateInput" priority="0" />
+      <Item value="deletedcategories.js" priority="0" />
+      <Item value="void" priority="0" />
+      <Item value="TransactionList_lazy_loading.js" priority="0" />
+      <Item value="categorydesc" priority="0" />
+      <Item value="ViewContext" priority="1" />
+      <Item value="RouteData`0" priority="0" />
+      <Item value="SriGreenShoppingCart" priority="1" />
+      <Item value="RegisterModel`0" priority="1" />
+      <Item value="Profile" priority="1" />
+      <Item value="Models" priority="1" />
+      <Item value="registerModel" priority="2" />
+      <Item value="RegisterModel" priority="0" />
+      <Item value="ogOn" priority="0" />
+      <Item value="button" priority="0" />
+      <Item value="n" priority="0" />
+      <Item value="MyCart.css" priority="0" />
+      <Item value="MyCart.gif" priority="0" />
+      <Item value="LatestnewsEventsModel`0" priority="1" />
+      <Item value="NewsandEvents" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Routing.RouteCollection">
+      <Item value="Add`0" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@SriGreenShoppingCart.ObjectScopeProvider1">
+      <Item value="GetNewObjectScope`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Telerik.OpenAccess.IObjectScope">
+      <Item value="GetOqlQuery`0" priority="16" />
+      <Item value="Tracking" priority="0" />
+      <Item value="Transaction" priority="23" />
+      <Item value="Add`0" priority="18" />
+      <Item value="Remove`0" priority="1" />
+      <Item value="GetObjectById`0" priority="1" />
+      <Item value="GetSqlQuery`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Telerik.OpenAccess.Query`1">
+      <Item value="ExecuteEnumerable`0" priority="17" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SriGreenShoppingCart.Models.Product">
+      <Item value="Name" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CCAvenueIntegrationDL.Product">
+      <Item value="Id" priority="11" />
+      <Item value="Name" priority="12" />
+      <Item value="Category" priority="6" />
+      <Item value="Quanity" priority="5" />
+      <Item value="Price" priority="11" />
+      <Item value="Description" priority="5" />
+      <Item value="Productfile" priority="2" />
+      <Item value="Equals`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Guid">
+      <Item value="Equals`0" priority="6" />
+      <Item value="ToString`0" priority="7" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="ToList`1" priority="17" />
+      <Item value="toar" priority="0" />
+      <Item value="Count`1" priority="5" />
+      <Item value="ToString`0" priority="2" />
+      <Item value="Skip`1" priority="0" />
+      <Item value="Select`2" priority="0" />
+      <Item value="Take`1" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Count" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpRequestBase">
+      <Item value="LogonUserIdentity" priority="0" />
+      <Item value="Form" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Security.Principal.WindowsIdentity">
+      <Item value="IsAuthenticated" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Runtime.Remoting.Contexts.Context">
+      <Item value="DefaultContext" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SriGreenShoppingCart.Controllers.ShoppingCartController">
+      <Item value="User" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Security.Principal.IPrincipal">
+      <Item value="Identity" priority="11" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Security.Principal.IIdentity">
+      <Item value="IsAuthenticated" priority="5" />
+      <Item value="Name" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CCAvenueIntegrationDL.User">
+      <Item value="Username" priority="13" />
+      <Item value="PreTransactionDetailses" priority="7" />
+      <Item value="IsheAdmin" priority="4" />
+      <Item value="Email" priority="3" />
+      <Item value="Mobileno" priority="2" />
+      <Item value="BillingAddress" priority="2" />
+      <Item value="BillingCity" priority="2" />
+      <Item value="BillingState" priority="0" />
+      <Item value="BillingCountry" priority="1" />
+      <Item value="BillingPin" priority="1" />
+      <Item value="BillingFaxno" priority="1" />
+      <Item value="DeliveryAddress" priority="1" />
+      <Item value="DeliveryCity" priority="1" />
+      <Item value="DeliveryCountry" priority="1" />
+      <Item value="DeliveryPin" priority="0" />
+      <Item value="DeliveryState" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="ToLower`0" priority="21" />
+      <Item value="Equals`0" priority="17" />
+      <Item value="ToString`0" priority="1" />
+      <Item value="Trim`0" priority="0" />
+      <Item value="Substring`0" priority="0" />
+      <Item value="Length" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CCAvenueIntegrationDL.PreTransactionDetails">
+      <Item value="TransactionStatus" priority="4" />
+      <Item value="Products" priority="6" />
+      <Item value="MyCarts" priority="8" />
+      <Item value="TransactionId" priority="6" />
+      <Item value="TransactionType" priority="0" />
+      <Item value="EntryTime" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@CCAvenueIntegrationDL.TransactionStatus">
+      <Item value="Pending" priority="0" />
+      <Item value="Completed" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IList`1">
+      <Item value="Add`0" priority="8" />
+      <Item value="Contains`0" priority="2" />
+      <Item value="Remove`0" priority="1" />
+      <Item value="ToList`1" priority="2" />
+      <Item value="Count" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Telerik.OpenAccess.ITransaction">
+      <Item value="Begin`0" priority="7" />
+      <Item value="Commit`0" priority="11" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.HttpContext">
+      <Item value="Current" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpContext">
+      <Item value="User" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Guid">
+      <Item value="NewGuid`0" priority="5" />
+      <Item value="Empty" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DateTime">
+      <Item value="Now" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.DBNull">
+      <Item value="Value" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Convert">
+      <Item value="ToInt16`0" priority="1" />
+      <Item value="ToDouble`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CCAvenueIntegrationDL.ToCcAvenue">
+      <Item value="ProcessCcAvenuePostBack`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Random">
+      <Item value="NextDouble`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Double">
+      <Item value="ToString`0" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CCAvenueIntegrationDL.FromCcAvenue">
+      <Item value="ConfigureEmail`0" priority="0" />
+      <Item value="ProcessCcAvenueData`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpContextBase">
+      <Item value="Request" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@CCAvenueIntegrationDL.FromCcAvenue">
+      <Item value="TransactionStatus`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SriGreenShoppingCart.Models.LogOnModel">
+      <Item value="UserName" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpResponse">
+      <Item value="Redirect`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.ComponentModel.DataAnnotations.DataType">
+      <Item value="Text" priority="3" />
+      <Item value="MultilineText" priority="0" />
+      <Item value="Currency" priority="0" />
+      <Item value="Custom" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Object">
+      <Item value="CategoryName" priority="5" />
+      <Item value="ToString`0" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CCAvenueIntegrationDL.Category">
+      <Item value="Name" priority="13" />
+      <Item value="Id" priority="9" />
+      <Item value="Products" priority="6" />
+      <Item value="Deletedstatus" priority="10" />
+      <Item value="Categorytype" priority="6" />
+      <Item value="Description" priority="4" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SriGreenShoppingCart.Models.CategoriesModel">
+      <Item value="CategoryName" priority="2" />
+      <Item value="CategoryDescription" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.ModelStateDictionary">
+      <Item value="AddModelError`0" priority="2" />
+      <Item value="Remove`0" priority="1" />
+      <Item value="IsValidField`0" priority="0" />
+      <Item value="IsValid" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SriGreenShoppingCart.Models.RegisterModel">
+      <Item value="UserName" priority="1" />
+      <Item value="BillingAddress" priority="0" />
+      <Item value="BillingCity" priority="0" />
+      <Item value="BillingFaxno" priority="0" />
+      <Item value="BillingState" priority="0" />
+      <Item value="DeliveryCity" priority="0" />
+      <Item value="Email" priority="0" />
+      <Item value="Mobile" priority="0" />
+      <Item value="Password" priority="3" />
+      <Item value="ConfirmPassword" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.HtmlHelper`1">
+      <Item value="DropDownList`0" priority="0" />
+      <Item value="TextArea`0" priority="0" />
+      <Item value="TextBox`0" priority="0" />
+      <Item value="TextBoxFor`2" priority="0" />
+      <Item value="DropDownListFor`2" priority="0" />
+      <Item value="HiddenFor`2" priority="1" />
+      <Item value="RenderPartial`0" priority="8" />
+      <Item value="RenderAction`0" priority="0" />
+      <Item value="TextAreaFor`2" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SriGreenShoppingCart.Models.ProductModel">
+      <Item value="ProductName" priority="4" />
+      <Item value="ProductDescription" priority="3" />
+      <Item value="CategoryName" priority="10" />
+      <Item value="ProductPrice" priority="4" />
+      <Item value="Image" priority="0" />
+      <Item value="Id" priority="2" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="IsNullOrEmpty`0" priority="4" />
+      <Item value="Empty" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpPostedFileBase">
+      <Item value="ContentLength" priority="1" />
+      <Item value="FileName" priority="0" />
+      <Item value="ContentType" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CCAvenueIntegrationDL.File">
+      <Item value="Filename" priority="1" />
+      <Item value="Filedata" priority="1" />
+      <Item value="ID" priority="1" />
+      <Item value="MimeType" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Mvc.UrlParameter">
+      <Item value="Optional" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.SelectListItem">
+      <Item value="Text" priority="0" />
+      <Item value="Selected" priority="2" />
+      <Item value="Value" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CCAvenueIntegrationDL.MyCart">
+      <Item value="Product" priority="9" />
+      <Item value="Quantity" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Boolean">
+      <Item value="Equals`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="JetBrains.ReSharper.Feature.Services.Asp.CodeCompletion.AspBasicCodeCompletionContext">
+      <Item value="ctx" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CCAvenueIntegrationDL.TransactionStatus">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.DateTime">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.UI.HtmlControls.HtmlSelect">
+      <Item value="option" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:CCAvenueIntegrationDL.LatestNews">
+      <Item value="News" priority="2" />
+      <Item value="NewsandEvents" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:SriGreenShoppingCart.Models.LatestnewsModel">
+      <Item value="Latestnews" priority="3" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@CCAvenueIntegrationDL.DeleteStatus">
+      <Item value="Recycled" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@CCAvenueIntegrationDL.Categorytype">
+      <Item value="General" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="JetBrains.ReSharper.Feature.Services.WebConfig.CodeCompletion.WebConfigBasicCompletionContext">
+      <Item value="ctx" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:ASP.views_account_register_aspx">
+      <Item value="ExecuteRegisteredAsyncTasks`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpRequest">
+      <Item value="Form" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.ViewContext">
+      <Item value="View" priority="0" />
+      <Item value="RouteData" priority="0" />
+      <Item value="Controller" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Routing.RouteData">
+      <Item value="Route" priority="0" />
+      <Item value="RouteHandler" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.ControllerBase">
+      <Item value="ValueProvider" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Mvc.IValueProvider">
+      <Item value="GetValue`0" priority="1" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

@@ -1,0 +1,1 @@
+﻿1.	Arrange products order to display in the show case.[drag and drop]

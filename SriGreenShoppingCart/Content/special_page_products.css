@@ -1,0 +1,15 @@
+.full-width
+{
+	width: 850px;
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+.one-fourth
+{
+	width: 198px;
+	margin-left: 5px;
+}
+.zoom-image IMG, .zoom-video IMG
+{
+	width: 188px;
+}

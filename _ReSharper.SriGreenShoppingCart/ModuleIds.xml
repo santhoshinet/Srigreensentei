@@ -1,0 +1,7 @@
+<Modules>
+  <Module PersistentId="C3D308C0-7AB3-435F-9F23-88E100AD137A" ModuleId="SriGreenShoppingCart" />
+  <Module PersistentId="D071D05F-66FF-4D24-B130-DD393C8A8A31" ModuleId="ConsoleApplication1" />
+  <Module PersistentId="d:Miscellaneous Files" ModuleId="CCAvenueIntegrationDL" />
+  <Module PersistentId="9BEA1F71-E6D4-4621-ABCE-CA1F84A1319B" ModuleId="CCAvenueIntegrationDL_1" />
+  <Module PersistentId="0EBACA8C-9D36-43F1-AE8D-428BA1382211" ModuleId="test" />
+</Modules>

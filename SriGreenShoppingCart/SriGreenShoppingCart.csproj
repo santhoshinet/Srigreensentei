@@ -1,0 +1,887 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C3D308C0-7AB3-435F-9F23-88E100AD137A}</ProjectGuid>
+    <ProjectTypeGuids>{F85E285D-A4E0-4152-9332-AB1D724D3325};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SriGreenShoppingCart</RootNamespace>
+    <AssemblyName>SriGreenShoppingCart</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CCAvenueIntegrationDL, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CCAvenueIntegrationDL\CCAvenueIntegrationDL\bin\Debug\CCAvenueIntegrationDL.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ComponentModel.DataAnnotations">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Abstractions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Routing">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="Telerik.OpenAccess, Version=2009.3.1104.2, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Telerik.OpenAccess.Query, Version=2009.3.1104.2, Culture=neutral, PublicKeyToken=7ce17eeaf1d59342, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\ControlpanelController.cs" />
+    <Compile Include="Controllers\ErrorController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ProductsController.cs" />
+    <Compile Include="Controllers\ShoppingCartController.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AccountModels.cs" />
+    <Compile Include="Models\ControlpanelModels.cs" />
+    <Compile Include="ObjectScopeProvider1.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\reset.css" />
+    <Content Include="Content\SpryMenuBarHorizontal.css" />
+    <Content Include="Content\style.css" />
+    <Content Include="Content\stylesheet.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Images\1.png" />
+    <Content Include="Images\12.jpg" />
+    <Content Include="Images\12.png" />
+    <Content Include="Images\2.png" />
+    <Content Include="Images\ajax-loader.gif" />
+    <Content Include="Images\body.png" />
+    <Content Include="Images\Creepers\1.jpg" />
+    <Content Include="Images\Creepers\10.jpg" />
+    <Content Include="Images\Creepers\11.jpg" />
+    <Content Include="Images\Creepers\12.jpg" />
+    <Content Include="Images\Creepers\13.jpg" />
+    <Content Include="Images\Creepers\14.jpg" />
+    <Content Include="Images\Creepers\15.jpg" />
+    <Content Include="Images\Creepers\16.jpg" />
+    <Content Include="Images\Creepers\17.jpg" />
+    <Content Include="Images\Creepers\18.jpg" />
+    <Content Include="Images\Creepers\19.jpg" />
+    <Content Include="Images\Creepers\2.jpg" />
+    <Content Include="Images\Creepers\20.jpg" />
+    <Content Include="Images\Creepers\21.jpg" />
+    <Content Include="Images\Creepers\22.jpg" />
+    <Content Include="Images\Creepers\23.jpg" />
+    <Content Include="Images\Creepers\24.jpg" />
+    <Content Include="Images\Creepers\25.jpg" />
+    <Content Include="Images\Creepers\26.jpg" />
+    <Content Include="Images\Creepers\27.jpg" />
+    <Content Include="Images\Creepers\28.jpg" />
+    <Content Include="Images\Creepers\29.jpg" />
+    <Content Include="Images\Creepers\3.jpg" />
+    <Content Include="Images\Creepers\30.jpg" />
+    <Content Include="Images\Creepers\4.jpg" />
+    <Content Include="Images\Creepers\5.jpg" />
+    <Content Include="Images\Creepers\6.jpg" />
+    <Content Include="Images\Creepers\7.jpg" />
+    <Content Include="Images\Creepers\8.jpg" />
+    <Content Include="Images\Creepers\9.jpg" />
+    <Content Include="Images\flash.swf" />
+    <Content Include="Images\Groung Covers\1.jpg" />
+    <Content Include="Images\Groung Covers\10.jpg" />
+    <Content Include="Images\Groung Covers\11.jpg" />
+    <Content Include="Images\Groung Covers\12.jpg" />
+    <Content Include="Images\Groung Covers\13.jpg" />
+    <Content Include="Images\Groung Covers\14.jpg" />
+    <Content Include="Images\Groung Covers\15.jpg" />
+    <Content Include="Images\Groung Covers\16.jpg" />
+    <Content Include="Images\Groung Covers\17.jpg" />
+    <Content Include="Images\Groung Covers\18.jpg" />
+    <Content Include="Images\Groung Covers\19.jpg" />
+    <Content Include="Images\Groung Covers\2.jpg" />
+    <Content Include="Images\Groung Covers\20.jpg" />
+    <Content Include="Images\Groung Covers\21.jpg" />
+    <Content Include="Images\Groung Covers\22.jpg" />
+    <Content Include="Images\Groung Covers\23.jpg" />
+    <Content Include="Images\Groung Covers\24.jpg" />
+    <Content Include="Images\Groung Covers\25.jpg" />
+    <Content Include="Images\Groung Covers\26.jpg" />
+    <Content Include="Images\Groung Covers\27.jpg" />
+    <Content Include="Images\Groung Covers\3.jpg" />
+    <Content Include="Images\Groung Covers\4.jpg" />
+    <Content Include="Images\Groung Covers\5.jpg" />
+    <Content Include="Images\Groung Covers\6.jpg" />
+    <Content Include="Images\Groung Covers\7.jpg" />
+    <Content Include="Images\Groung Covers\8.jpg" />
+    <Content Include="Images\Groung Covers\9.jpg" />
+    <Content Include="Images\image12.jpg" />
+    <Content Include="Images\Imported-Plants\1.jpg" />
+    <Content Include="Images\Imported-Plants\10.jpg" />
+    <Content Include="Images\Imported-Plants\11.jpg" />
+    <Content Include="Images\Imported-Plants\12.jpg" />
+    <Content Include="Images\Imported-Plants\13.jpg" />
+    <Content Include="Images\Imported-Plants\14.jpg" />
+    <Content Include="Images\Imported-Plants\15.jpg" />
+    <Content Include="Images\Imported-Plants\16.jpg" />
+    <Content Include="Images\Imported-Plants\17.jpg" />
+    <Content Include="Images\Imported-Plants\18.jpg" />
+    <Content Include="Images\Imported-Plants\19.jpg" />
+    <Content Include="Images\Imported-Plants\2.jpg" />
+    <Content Include="Images\Imported-Plants\20.jpg" />
+    <Content Include="Images\Imported-Plants\21.jpg" />
+    <Content Include="Images\Imported-Plants\22.jpg" />
+    <Content Include="Images\Imported-Plants\23.jpg" />
+    <Content Include="Images\Imported-Plants\24.jpg" />
+    <Content Include="Images\Imported-Plants\25.jpg" />
+    <Content Include="Images\Imported-Plants\26.jpg" />
+    <Content Include="Images\Imported-Plants\27.jpg" />
+    <Content Include="Images\Imported-Plants\28.jpg" />
+    <Content Include="Images\Imported-Plants\29.jpg" />
+    <Content Include="Images\Imported-Plants\3.jpg" />
+    <Content Include="Images\Imported-Plants\30.jpg" />
+    <Content Include="Images\Imported-Plants\31.jpg" />
+    <Content Include="Images\Imported-Plants\32.jpg" />
+    <Content Include="Images\Imported-Plants\33.jpg" />
+    <Content Include="Images\Imported-Plants\34.jpg" />
+    <Content Include="Images\Imported-Plants\35.jpg" />
+    <Content Include="Images\Imported-Plants\36.jpg" />
+    <Content Include="Images\Imported-Plants\37.jpg" />
+    <Content Include="Images\Imported-Plants\38.jpg" />
+    <Content Include="Images\Imported-Plants\39.jpg" />
+    <Content Include="Images\Imported-Plants\4.jpg" />
+    <Content Include="Images\Imported-Plants\40.jpg" />
+    <Content Include="Images\Imported-Plants\41.jpg" />
+    <Content Include="Images\Imported-Plants\42.jpg" />
+    <Content Include="Images\Imported-Plants\43.jpg" />
+    <Content Include="Images\Imported-Plants\44.jpg" />
+    <Content Include="Images\Imported-Plants\45.jpg" />
+    <Content Include="Images\Imported-Plants\46.jpg" />
+    <Content Include="Images\Imported-Plants\47.jpg" />
+    <Content Include="Images\Imported-Plants\48.jpg" />
+    <Content Include="Images\Imported-Plants\49.jpg" />
+    <Content Include="Images\Imported-Plants\5.jpg" />
+    <Content Include="Images\Imported-Plants\50.jpg" />
+    <Content Include="Images\Imported-Plants\51.jpg" />
+    <Content Include="Images\Imported-Plants\52.jpg" />
+    <Content Include="Images\Imported-Plants\53.jpg" />
+    <Content Include="Images\Imported-Plants\54.jpg" />
+    <Content Include="Images\Imported-Plants\6.jpg" />
+    <Content Include="Images\Imported-Plants\7.jpg" />
+    <Content Include="Images\Imported-Plants\8.jpg" />
+    <Content Include="Images\Imported-Plants\9.jpg" />
+    <Content Include="Images\logo.jpg" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\Makes-Environ-Green.jpg" />
+    <Content Include="Images\Makes-Environ-Green.png" />
+    <Content Include="Images\menu.jpg" />
+    <Content Include="Images\menu\aboutus.png" />
+    <Content Include="Images\menu\contactus.png" />
+    <Content Include="Images\menu\home.png" />
+    <Content Include="Images\menu\newevents.png" />
+    <Content Include="Images\N06.jpg" />
+    <Content Include="Images\Next.jpg" />
+    <Content Include="Images\No1.jpg" />
+    <Content Include="Images\No2.jpg" />
+    <Content Include="Images\No3.jpg" />
+    <Content Include="Images\No4.jpg" />
+    <Content Include="Images\No5.jpg" />
+    <Content Include="Images\number1.jpg" />
+    <Content Include="Images\Palms\1.jpg" />
+    <Content Include="Images\Palms\10.jpg" />
+    <Content Include="Images\Palms\11.jpg" />
+    <Content Include="Images\Palms\12.jpg" />
+    <Content Include="Images\Palms\13.jpg" />
+    <Content Include="Images\Palms\14.jpg" />
+    <Content Include="Images\Palms\15.jpg" />
+    <Content Include="Images\Palms\16.jpg" />
+    <Content Include="Images\Palms\17.jpg" />
+    <Content Include="Images\Palms\18.jpg" />
+    <Content Include="Images\Palms\2.jpg" />
+    <Content Include="Images\Palms\3.jpg" />
+    <Content Include="Images\Palms\4.jpg" />
+    <Content Include="Images\Palms\5.jpg" />
+    <Content Include="Images\Palms\6.jpg" />
+    <Content Include="Images\Palms\7.jpg" />
+    <Content Include="Images\Palms\8.jpg" />
+    <Content Include="Images\Palms\9.jpg" />
+    <Content Include="Images\Preview.jpg" />
+    <Content Include="Images\product-images\bkg.png" />
+    <Content Include="Images\product-images\icon\add.png" />
+    <Content Include="Images\product-images\icon\addtocart.jpg" />
+    <Content Include="Images\product-images\SES-logo.png" />
+    <Content Include="Images\product-images\white-bg.png" />
+    <Content Include="Images\scroller\1.jpg" />
+    <Content Include="Images\scroller\2.jpg" />
+    <Content Include="Images\scroller\3.jpg" />
+    <Content Include="Images\scroller\4.jpg" />
+    <Content Include="Images\scroller\5.jpg" />
+    <Content Include="Images\shrubs\1.jpg" />
+    <Content Include="Images\shrubs\10.jpg" />
+    <Content Include="Images\shrubs\100.jpg" />
+    <Content Include="Images\shrubs\101.jpg" />
+    <Content Include="Images\shrubs\102.jpg" />
+    <Content Include="Images\shrubs\11.jpg" />
+    <Content Include="Images\shrubs\12.jpg" />
+    <Content Include="Images\shrubs\13.jpg" />
+    <Content Include="Images\shrubs\14.jpg" />
+    <Content Include="Images\shrubs\15.jpg" />
+    <Content Include="Images\shrubs\16.jpg" />
+    <Content Include="Images\shrubs\17.jpg" />
+    <Content Include="Images\shrubs\18.jpg" />
+    <Content Include="Images\shrubs\19.jpg" />
+    <Content Include="Images\shrubs\2.jpg" />
+    <Content Include="Images\shrubs\20.jpg" />
+    <Content Include="Images\shrubs\21.jpg" />
+    <Content Include="Images\shrubs\22.jpg" />
+    <Content Include="Images\shrubs\23.jpg" />
+    <Content Include="Images\shrubs\24.jpg" />
+    <Content Include="Images\shrubs\25.jpg" />
+    <Content Include="Images\shrubs\26.jpg" />
+    <Content Include="Images\shrubs\27.jpg" />
+    <Content Include="Images\shrubs\28.jpg" />
+    <Content Include="Images\shrubs\29.jpg" />
+    <Content Include="Images\shrubs\3.jpg" />
+    <Content Include="Images\shrubs\30.jpg" />
+    <Content Include="Images\shrubs\31.jpg" />
+    <Content Include="Images\shrubs\32.jpg" />
+    <Content Include="Images\shrubs\33.jpg" />
+    <Content Include="Images\shrubs\34.jpg" />
+    <Content Include="Images\shrubs\35.jpg" />
+    <Content Include="Images\shrubs\36.jpg" />
+    <Content Include="Images\shrubs\37.jpg" />
+    <Content Include="Images\shrubs\38.jpg" />
+    <Content Include="Images\shrubs\39.jpg" />
+    <Content Include="Images\shrubs\4.jpg" />
+    <Content Include="Images\shrubs\40.jpg" />
+    <Content Include="Images\shrubs\41.jpg" />
+    <Content Include="Images\shrubs\42.jpg" />
+    <Content Include="Images\shrubs\43.jpg" />
+    <Content Include="Images\shrubs\44.jpg" />
+    <Content Include="Images\shrubs\45.jpg" />
+    <Content Include="Images\shrubs\46.jpg" />
+    <Content Include="Images\shrubs\47.jpg" />
+    <Content Include="Images\shrubs\48.jpg" />
+    <Content Include="Images\shrubs\49.jpg" />
+    <Content Include="Images\shrubs\5.jpg" />
+    <Content Include="Images\shrubs\50.jpg" />
+    <Content Include="Images\shrubs\51.jpg" />
+    <Content Include="Images\shrubs\52.jpg" />
+    <Content Include="Images\shrubs\53.jpg" />
+    <Content Include="Images\shrubs\54.jpg" />
+    <Content Include="Images\shrubs\55.jpg" />
+    <Content Include="Images\shrubs\56.jpg" />
+    <Content Include="Images\shrubs\57.jpg" />
+    <Content Include="Images\shrubs\58.jpg" />
+    <Content Include="Images\shrubs\59.jpg" />
+    <Content Include="Images\shrubs\6.jpg" />
+    <Content Include="Images\shrubs\60.jpg" />
+    <Content Include="Images\shrubs\61.jpg" />
+    <Content Include="Images\shrubs\62.jpg" />
+    <Content Include="Images\shrubs\63.jpg" />
+    <Content Include="Images\shrubs\64.jpg" />
+    <Content Include="Images\shrubs\65.jpg" />
+    <Content Include="Images\shrubs\66.jpg" />
+    <Content Include="Images\shrubs\67.jpg" />
+    <Content Include="Images\shrubs\68.jpg" />
+    <Content Include="Images\shrubs\69.jpg" />
+    <Content Include="Images\shrubs\7.jpg" />
+    <Content Include="Images\shrubs\70.jpg" />
+    <Content Include="Images\shrubs\71.jpg" />
+    <Content Include="Images\shrubs\72.jpg" />
+    <Content Include="Images\shrubs\73.jpg" />
+    <Content Include="Images\shrubs\74.jpg" />
+    <Content Include="Images\shrubs\75.jpg" />
+    <Content Include="Images\shrubs\76.jpg" />
+    <Content Include="Images\shrubs\77.jpg" />
+    <Content Include="Images\shrubs\78.jpg" />
+    <Content Include="Images\shrubs\79.jpg" />
+    <Content Include="Images\shrubs\8.jpg" />
+    <Content Include="Images\shrubs\80.jpg" />
+    <Content Include="Images\shrubs\81.jpg" />
+    <Content Include="Images\shrubs\82.jpg" />
+    <Content Include="Images\shrubs\83.jpg" />
+    <Content Include="Images\shrubs\84.jpg" />
+    <Content Include="Images\shrubs\85.jpg" />
+    <Content Include="Images\shrubs\86.jpg" />
+    <Content Include="Images\shrubs\87.jpg" />
+    <Content Include="Images\shrubs\88.jpg" />
+    <Content Include="Images\shrubs\89.jpg" />
+    <Content Include="Images\shrubs\9.jpg" />
+    <Content Include="Images\shrubs\90.jpg" />
+    <Content Include="Images\shrubs\91.jpg" />
+    <Content Include="Images\shrubs\92.jpg" />
+    <Content Include="Images\shrubs\93.jpg" />
+    <Content Include="Images\shrubs\94.jpg" />
+    <Content Include="Images\shrubs\95.jpg" />
+    <Content Include="Images\shrubs\96.jpg" />
+    <Content Include="Images\shrubs\97.jpg" />
+    <Content Include="Images\shrubs\98.jpg" />
+    <Content Include="Images\shrubs\99.jpg" />
+    <Content Include="Images\SpryMenuBarDown.gif" />
+    <Content Include="Images\SpryMenuBarDownHover.gif" />
+    <Content Include="Images\SpryMenuBarRight.gif" />
+    <Content Include="Images\SpryMenuBarRightHover.gif" />
+    <Content Include="Images\Trees\1.jpg" />
+    <Content Include="Images\Trees\10.jpg" />
+    <Content Include="Images\Trees\11.jpg" />
+    <Content Include="Images\Trees\12.jpg" />
+    <Content Include="Images\Trees\13.jpg" />
+    <Content Include="Images\Trees\14.jpg" />
+    <Content Include="Images\Trees\15.jpg" />
+    <Content Include="Images\Trees\16.jpg" />
+    <Content Include="Images\Trees\17.jpg" />
+    <Content Include="Images\Trees\18.jpg" />
+    <Content Include="Images\Trees\19.jpg" />
+    <Content Include="Images\Trees\2.jpg" />
+    <Content Include="Images\Trees\20.jpg" />
+    <Content Include="Images\Trees\21.jpg" />
+    <Content Include="Images\Trees\22.jpg" />
+    <Content Include="Images\Trees\23.jpg" />
+    <Content Include="Images\Trees\24.jpg" />
+    <Content Include="Images\Trees\25.jpg" />
+    <Content Include="Images\Trees\26.jpg" />
+    <Content Include="Images\Trees\27.jpg" />
+    <Content Include="Images\Trees\28.jpg" />
+    <Content Include="Images\Trees\29.jpg" />
+    <Content Include="Images\Trees\3.jpg" />
+    <Content Include="Images\Trees\30.jpg" />
+    <Content Include="Images\Trees\31.jpg" />
+    <Content Include="Images\Trees\32.jpg" />
+    <Content Include="Images\Trees\33.jpg" />
+    <Content Include="Images\Trees\34.jpg" />
+    <Content Include="Images\Trees\35.jpg" />
+    <Content Include="Images\Trees\36.jpg" />
+    <Content Include="Images\Trees\37.jpg" />
+    <Content Include="Images\Trees\38.jpg" />
+    <Content Include="Images\Trees\39.jpg" />
+    <Content Include="Images\Trees\4.jpg" />
+    <Content Include="Images\Trees\40.jpg" />
+    <Content Include="Images\Trees\41.jpg" />
+    <Content Include="Images\Trees\42.jpg" />
+    <Content Include="Images\Trees\43.jpg" />
+    <Content Include="Images\Trees\44.jpg" />
+    <Content Include="Images\Trees\45.jpg" />
+    <Content Include="Images\Trees\46.jpg" />
+    <Content Include="Images\Trees\47.jpg" />
+    <Content Include="Images\Trees\48.jpg" />
+    <Content Include="Images\Trees\49.jpg" />
+    <Content Include="Images\Trees\5.jpg" />
+    <Content Include="Images\Trees\50.jpg" />
+    <Content Include="Images\Trees\51.jpg" />
+    <Content Include="Images\Trees\52.jpg" />
+    <Content Include="Images\Trees\53.jpg" />
+    <Content Include="Images\Trees\54.jpg" />
+    <Content Include="Images\Trees\55.jpg" />
+    <Content Include="Images\Trees\56.jpg" />
+    <Content Include="Images\Trees\57.jpg" />
+    <Content Include="Images\Trees\58.jpg" />
+    <Content Include="Images\Trees\59.jpg" />
+    <Content Include="Images\Trees\6.jpg" />
+    <Content Include="Images\Trees\60.jpg" />
+    <Content Include="Images\Trees\61.jpg" />
+    <Content Include="Images\Trees\62.jpg" />
+    <Content Include="Images\Trees\63.jpg" />
+    <Content Include="Images\Trees\64.jpg" />
+    <Content Include="Images\Trees\65.jpg" />
+    <Content Include="Images\Trees\66.jpg" />
+    <Content Include="Images\Trees\67.jpg" />
+    <Content Include="Images\Trees\68.jpg" />
+    <Content Include="Images\Trees\69.jpg" />
+    <Content Include="Images\Trees\7.jpg" />
+    <Content Include="Images\Trees\70.jpg" />
+    <Content Include="Images\Trees\71.jpg" />
+    <Content Include="Images\Trees\72.jpg" />
+    <Content Include="Images\Trees\73.jpg" />
+    <Content Include="Images\Trees\74.jpg" />
+    <Content Include="Images\Trees\75.jpg" />
+    <Content Include="Images\Trees\76.jpg" />
+    <Content Include="Images\Trees\77.jpg" />
+    <Content Include="Images\Trees\78.jpg" />
+    <Content Include="Images\Trees\79.jpg" />
+    <Content Include="Images\Trees\8.jpg" />
+    <Content Include="Images\Trees\80.jpg" />
+    <Content Include="Images\Trees\81.jpg" />
+    <Content Include="Images\Trees\82.jpg" />
+    <Content Include="Images\Trees\83.jpg" />
+    <Content Include="Images\Trees\84.jpg" />
+    <Content Include="Images\Trees\85.jpg" />
+    <Content Include="Images\Trees\86.jpg" />
+    <Content Include="Images\Trees\87.jpg" />
+    <Content Include="Images\Trees\88.jpg" />
+    <Content Include="Images\Trees\89.jpg" />
+    <Content Include="Images\Trees\9.jpg" />
+    <Content Include="Images\Trees\90.jpg" />
+    <Content Include="Images\Trees\91.jpg" />
+    <Content Include="Images\Trees\92.jpg" />
+    <Content Include="Images\Trees\93.jpg" />
+    <Content Include="Images\Trees\94.jpg" />
+    <Content Include="Images\Trees\95.jpg" />
+    <Content Include="Scripts\AC_RunActiveContent.js" />
+    <Content Include="Scripts\crawler.js" />
+    <Content Include="Scripts\ShopppingCart.js" />
+    <Content Include="Scripts\SpryMenuBar.js" />
+    <None Include="Web.config" />
+    <Content Include="Views\ShoppingCart\Payment.aspx" />
+    <Content Include="Views\ShoppingCart\ShowCart.aspx" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Views\Account\ChangePassword.aspx" />
+    <Content Include="Views\Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Views\Account\LogOn.aspx" />
+    <Content Include="Views\Account\Register.aspx" />
+    <Content Include="Views\Home\About.aspx" />
+    <Content Include="Views\Home\Index.aspx" />
+    <Content Include="Views\Shared\Error.aspx" />
+    <Content Include="Views\Shared\Site.Master" />
+    <Content Include="Views\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Images\Creepers\_notes\1.jpg.mno" />
+    <None Include="Images\Creepers\_notes\2.jpg.mno" />
+    <None Include="Images\Creepers\_notes\3.jpg.mno" />
+    <None Include="Images\Creepers\_notes\4.jpg.mno" />
+    <None Include="Images\Groung Covers\Thumbs.db" />
+    <None Include="Images\Groung Covers\_notes\1.jpg.mno" />
+    <None Include="Images\Groung Covers\_notes\10.jpg.mno" />
+    <None Include="Images\Groung Covers\_notes\2.jpg.mno" />
+    <None Include="Images\Groung Covers\_notes\3.jpg.mno" />
+    <None Include="Images\Groung Covers\_notes\4.jpg.mno" />
+    <None Include="Images\Groung Covers\_notes\5.jpg.mno" />
+    <None Include="Images\Groung Covers\_notes\6.jpg.mno" />
+    <None Include="Images\Groung Covers\_notes\7.jpg.mno" />
+    <None Include="Images\Groung Covers\_notes\8.jpg.mno" />
+    <None Include="Images\Groung Covers\_notes\9.jpg.mno" />
+    <None Include="Images\Imported-Plants\Thumbs.db" />
+    <None Include="Images\Imported-Plants\_notes\.mno" />
+    <None Include="Images\Imported-Plants\_notes\1.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\10.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\11.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\12.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\13.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\14.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\15.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\16.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\17.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\18.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\19.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\2.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\20.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\21.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\22.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\23.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\24.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\25.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\26.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\27.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\28.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\29.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\3.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\30.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\31.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\32.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\33.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\34.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\36.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\37.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\38.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\39.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\4.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\40.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\41.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\42.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\43.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\44.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\45.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\46.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\47.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\48.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\49.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\5.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\50.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\51.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\52.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\53.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\6.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\7.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\8.jpg.mno" />
+    <None Include="Images\Imported-Plants\_notes\9.jpg.mno" />
+    <None Include="Images\menu\Thumbs.db" />
+    <None Include="Images\Palms\Thumbs.db" />
+    <None Include="Images\Palms\_notes\1.jpg.mno" />
+    <None Include="Images\Palms\_notes\10.jpg.mno" />
+    <None Include="Images\Palms\_notes\2.jpg.mno" />
+    <None Include="Images\Palms\_notes\3.jpg.mno" />
+    <None Include="Images\Palms\_notes\4.jpg.mno" />
+    <None Include="Images\Palms\_notes\5.jpg.mno" />
+    <None Include="Images\Palms\_notes\6.jpg.mno" />
+    <None Include="Images\Palms\_notes\7.jpg.mno" />
+    <None Include="Images\Palms\_notes\8.jpg.mno" />
+    <None Include="Images\Palms\_notes\9.jpg.mno" />
+    <None Include="Images\product-images\icon\Thumbs.db" />
+    <None Include="Images\product-images\Thumbs.db" />
+    <None Include="Images\scroller\Thumbs.db" />
+    <None Include="Images\shrubs\Thumbs.db" />
+    <None Include="Images\shrubs\_notes\1.jpg.mno" />
+    <None Include="Images\shrubs\_notes\10.jpg.mno" />
+    <None Include="Images\shrubs\_notes\12.jpg.mno" />
+    <None Include="Images\shrubs\_notes\13.jpg.mno" />
+    <None Include="Images\shrubs\_notes\14.jpg.mno" />
+    <None Include="Images\shrubs\_notes\15.jpg.mno" />
+    <None Include="Images\shrubs\_notes\16.jpg.mno" />
+    <None Include="Images\shrubs\_notes\17.jpg.mno" />
+    <None Include="Images\shrubs\_notes\18.jpg.mno" />
+    <None Include="Images\shrubs\_notes\19.jpg.mno" />
+    <None Include="Images\shrubs\_notes\2.jpg.mno" />
+    <None Include="Images\shrubs\_notes\20.jpg.mno" />
+    <None Include="Images\shrubs\_notes\21.jpg.mno" />
+    <None Include="Images\shrubs\_notes\22.jpg.mno" />
+    <None Include="Images\shrubs\_notes\23.jpg.mno" />
+    <None Include="Images\shrubs\_notes\24.jpg.mno" />
+    <None Include="Images\shrubs\_notes\25.jpg.mno" />
+    <None Include="Images\shrubs\_notes\26.jpg.mno" />
+    <None Include="Images\shrubs\_notes\27.jpg.mno" />
+    <None Include="Images\shrubs\_notes\28.jpg.mno" />
+    <None Include="Images\shrubs\_notes\29.jpg.mno" />
+    <None Include="Images\shrubs\_notes\3.jpg.mno" />
+    <None Include="Images\shrubs\_notes\30.jpg.mno" />
+    <None Include="Images\shrubs\_notes\31.jpg.mno" />
+    <None Include="Images\shrubs\_notes\32.jpg.mno" />
+    <None Include="Images\shrubs\_notes\33.jpg.mno" />
+    <None Include="Images\shrubs\_notes\34.jpg.mno" />
+    <None Include="Images\shrubs\_notes\35.jpg.mno" />
+    <None Include="Images\shrubs\_notes\36.jpg.mno" />
+    <None Include="Images\shrubs\_notes\37.jpg.mno" />
+    <None Include="Images\shrubs\_notes\38.jpg.mno" />
+    <None Include="Images\shrubs\_notes\39.jpg.mno" />
+    <None Include="Images\shrubs\_notes\4.jpg.mno" />
+    <None Include="Images\shrubs\_notes\40.jpg.mno" />
+    <None Include="Images\shrubs\_notes\41.jpg.mno" />
+    <None Include="Images\shrubs\_notes\42.jpg.mno" />
+    <None Include="Images\shrubs\_notes\43.jpg.mno" />
+    <None Include="Images\shrubs\_notes\44.jpg.mno" />
+    <None Include="Images\shrubs\_notes\45.jpg.mno" />
+    <None Include="Images\shrubs\_notes\46.jpg.mno" />
+    <None Include="Images\shrubs\_notes\47.jpg.mno" />
+    <None Include="Images\shrubs\_notes\48.jpg.mno" />
+    <None Include="Images\shrubs\_notes\49.jpg.mno" />
+    <None Include="Images\shrubs\_notes\50.jpg.mno" />
+    <None Include="Images\shrubs\_notes\51.jpg.mno" />
+    <None Include="Images\shrubs\_notes\52.jpg.mno" />
+    <None Include="Images\shrubs\_notes\53.jpg.mno" />
+    <None Include="Images\shrubs\_notes\54.jpg.mno" />
+    <None Include="Images\shrubs\_notes\55.jpg.mno" />
+    <None Include="Images\shrubs\_notes\6.jpg.mno" />
+    <None Include="Images\shrubs\_notes\7.jpg.mno" />
+    <None Include="Images\shrubs\_notes\8.jpg.mno" />
+    <None Include="Images\shrubs\_notes\9.jpg.mno" />
+    <None Include="Images\Trees\Thumbs.db" />
+    <None Include="Images\Trees\_notes\1.jpg.mno" />
+    <None Include="Images\Trees\_notes\10.jpg.mno" />
+    <None Include="Images\Trees\_notes\11.jpg.mno" />
+    <None Include="Images\Trees\_notes\12.jpg.mno" />
+    <None Include="Images\Trees\_notes\13.jpg.mno" />
+    <None Include="Images\Trees\_notes\14.jpg.mno" />
+    <None Include="Images\Trees\_notes\15.jpg.mno" />
+    <None Include="Images\Trees\_notes\16.jpg.mno" />
+    <None Include="Images\Trees\_notes\17.jpg.mno" />
+    <None Include="Images\Trees\_notes\18.jpg.mno" />
+    <None Include="Images\Trees\_notes\19.jpg.mno" />
+    <None Include="Images\Trees\_notes\2.jpg.mno" />
+    <None Include="Images\Trees\_notes\20.jpg.mno" />
+    <None Include="Images\Trees\_notes\22.jpg.mno" />
+    <None Include="Images\Trees\_notes\3.jpg.mno" />
+    <None Include="Images\Trees\_notes\4.jpg.mno" />
+    <None Include="Images\Trees\_notes\5.jpg.mno" />
+    <None Include="Images\Trees\_notes\6.jpg.mno" />
+    <None Include="Images\Trees\_notes\7.jpg.mno" />
+    <None Include="Images\Trees\_notes\8.jpg.mno" />
+    <None Include="Images\Trees\_notes\9.jpg.mno" />
+    <Content Include="Content\ajaxloading.css" />
+    <Content Include="Content\elrte-inner.css" />
+    <Content Include="Content\elrte.full.css" />
+    <Content Include="Content\elrte.min.css" />
+    <Content Include="Content\jquery.fancybox-1.3.4.css" />
+    <Content Include="Content\products.css" />
+    <Content Include="Content\smoothness\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\smoothness\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\smoothness\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\smoothness\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\smoothness\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\smoothness\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\smoothness\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\smoothness\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\smoothness\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\smoothness\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\smoothness\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\smoothness\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\smoothness\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\smoothness\jquery-ui-1.8.13.custom.css" />
+    <Content Include="Content\special_page_products.css" />
+    <Content Include="Images\added.gif" />
+    <Content Include="Images\arrows.png" />
+    <Content Include="Images\bg_10.png" />
+    <Content Include="Images\bg_15.png" />
+    <Content Include="Images\bg_20.png" />
+    <Content Include="Images\button-bg-hover.png" />
+    <Content Include="Images\button-bg.png" />
+    <Content Include="Images\callus.jpg" />
+    <Content Include="Images\cart.png" />
+    <Content Include="Images\ccavenue.gif" />
+    <Content Include="Images\code-bg.png" />
+    <Content Include="Images\Edit.gif" />
+    <Content Include="Images\elrte-toolbar.png" />
+    <Content Include="Images\fancybox\blank.gif" />
+    <Content Include="Images\fancybox\fancybox-x.png" />
+    <Content Include="Images\fancybox\fancybox-y.png" />
+    <Content Include="Images\fancybox\fancybox.png" />
+    <Content Include="Images\fancybox\fancy_close.png" />
+    <Content Include="Images\fancybox\fancy_loading.png" />
+    <Content Include="Images\fancybox\fancy_nav_left.png" />
+    <Content Include="Images\fancybox\fancy_nav_right.png" />
+    <Content Include="Images\fancybox\fancy_shadow_e.png" />
+    <Content Include="Images\fancybox\fancy_shadow_n.png" />
+    <Content Include="Images\fancybox\fancy_shadow_ne.png" />
+    <Content Include="Images\fancybox\fancy_shadow_nw.png" />
+    <Content Include="Images\fancybox\fancy_shadow_s.png" />
+    <Content Include="Images\fancybox\fancy_shadow_se.png" />
+    <Content Include="Images\fancybox\fancy_shadow_sw.png" />
+    <Content Include="Images\fancybox\fancy_shadow_w.png" />
+    <Content Include="Images\fancybox\fancy_title_left.png" />
+    <Content Include="Images\fancybox\fancy_title_main.png" />
+    <Content Include="Images\fancybox\fancy_title_over.png" />
+    <Content Include="Images\fancybox\fancy_title_right.png" />
+    <Content Include="Images\google-maps.png" />
+    <Content Include="Images\ico-delete.gif" />
+    <Content Include="Images\iframe.png" />
+    <Content Include="Images\img-sha-217.png" />
+    <Content Include="Images\img-sha-300.png" />
+    <Content Include="Images\img-sha-465.png" />
+    <Content Include="Images\img-sha-630.png" />
+    <Content Include="Images\img-sha-713.png" />
+    <Content Include="Images\img-sha-960.png" />
+    <Content Include="Images\list-arrow.png" />
+    <Content Include="Images\loading-balls.gif" />
+    <Content Include="Images\loading.gif" />
+    <Content Include="Images\media-director.png" />
+    <Content Include="Images\media-flash.png" />
+    <Content Include="Images\media-quicktime.png" />
+    <Content Include="Images\media-realaudio.png" />
+    <Content Include="Images\media-rutube.png" />
+    <Content Include="Images\media-vimeo.png" />
+    <Content Include="Images\media-winmedia.png" />
+    <Content Include="Images\media-youtube.png" />
+    <Content Include="Images\MyCart.png" />
+    <Content Include="Images\online-shop.jpg" />
+    <Content Include="Images\outline-div.png" />
+    <Content Include="Images\outline-p.png" />
+    <Content Include="Images\pagebreak.gif" />
+    <Content Include="Images\page_nav.png" />
+    <Content Include="Images\pixel.gif" />
+    <Content Include="Images\plant water.swf" />
+    <Content Include="Images\slider_active.png" />
+    <Content Include="Images\slider_inactive.png" />
+    <Content Include="Images\smileys\evilgrin.png" />
+    <Content Include="Images\smileys\grin.png" />
+    <Content Include="Images\smileys\happy.png" />
+    <Content Include="Images\smileys\smile.png" />
+    <Content Include="Images\smileys\surprised.png" />
+    <Content Include="Images\smileys\tongue.png" />
+    <Content Include="Images\smileys\unhappy.png" />
+    <Content Include="Images\smileys\waii.png" />
+    <Content Include="Images\smileys\wink.png" />
+    <Content Include="Images\v_line.png" />
+    <Content Include="Images\yandex-maps.png" />
+    <Content Include="Images\zoom-image.png" />
+    <Content Include="Images\zoom-video.png" />
+    <Content Include="Scripts\categories.js" />
+    <Content Include="Scripts\checkout.js" />
+    <Content Include="Scripts\CustomerList.js" />
+    <Content Include="Scripts\customerlist_lazy_loading.js" />
+    <Content Include="Scripts\deletedcategories.js" />
+    <Content Include="Scripts\elrte.full.js" />
+    <Content Include="Scripts\elrte.min.js" />
+    <Content Include="Scripts\i18n\elrte.ar.js" />
+    <Content Include="Scripts\i18n\elrte.ca.js" />
+    <Content Include="Scripts\i18n\elrte.cs.js" />
+    <Content Include="Scripts\i18n\elrte.da.js" />
+    <Content Include="Scripts\i18n\elrte.de.js" />
+    <Content Include="Scripts\i18n\elrte.en.js" />
+    <Content Include="Scripts\i18n\elrte.es.js" />
+    <Content Include="Scripts\i18n\elrte.fa.js" />
+    <Content Include="Scripts\i18n\elrte.fr.js" />
+    <Content Include="Scripts\i18n\elrte.hr.js" />
+    <Content Include="Scripts\i18n\elrte.hu.js" />
+    <Content Include="Scripts\i18n\elrte.it.js" />
+    <Content Include="Scripts\i18n\elrte.jp.js" />
+    <Content Include="Scripts\i18n\elrte.ko.js" />
+    <Content Include="Scripts\i18n\elrte.lv.js" />
+    <Content Include="Scripts\i18n\elrte.nl.js" />
+    <Content Include="Scripts\i18n\elrte.pl.js" />
+    <Content Include="Scripts\i18n\elrte.pt_BR.js" />
+    <Content Include="Scripts\i18n\elrte.ru.js" />
+    <Content Include="Scripts\i18n\elrte.sk.js" />
+    <Content Include="Scripts\i18n\elrte.th.js" />
+    <Content Include="Scripts\i18n\elrte.tr.js" />
+    <Content Include="Scripts\i18n\elrte.uk.js" />
+    <Content Include="Scripts\i18n\elrte.vi.js" />
+    <Content Include="Scripts\i18n\elrte.YOUR_LANG.js" />
+    <Content Include="Scripts\i18n\elrte.zh_CN.js" />
+    <Content Include="Scripts\i18n\elrte.zh_TW.js" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.4.min.js" />
+    <Content Include="Scripts\jquery-1.6.1.min.js" />
+    <Content Include="Scripts\jquery-ui-1.8.13.custom.min.js" />
+    <Content Include="Scripts\jquery.easing-1.3.pack.js" />
+    <Content Include="Scripts\jquery.fancybox-1.3.4.pack.js" />
+    <Content Include="Scripts\jquery.highlight-3.js" />
+    <Content Include="Scripts\jquery.mousewheel-3.0.4.pack.js" />
+    <Content Include="Scripts\jquery.quicksearch.js" />
+    <Content Include="Scripts\MicrosoftAjax.debug.js" />
+    <Content Include="Scripts\MicrosoftAjax.js" />
+    <Content Include="Scripts\MicrosoftMvcAjax.debug.js" />
+    <Content Include="Scripts\MicrosoftMvcAjax.js" />
+    <Content Include="Scripts\MicrosoftMvcValidation.debug.js" />
+    <Content Include="Scripts\MicrosoftMvcValidation.js" />
+    <Content Include="Scripts\OfflinePayment.js" />
+    <Content Include="Scripts\Products.js" />
+    <Content Include="Scripts\products_lazy_loading.js" />
+    <Content Include="Scripts\Register.js" />
+    <Content Include="Scripts\TransactionList.js" />
+    <Content Include="Scripts\TransactionList_lazy_loading.js" />
+    <Content Include="todo.txt" />
+    <Content Include="Views\Account\MyProfile.aspx" />
+    <Content Include="Views\Controlpanel\categories.aspx" />
+    <Content Include="Views\Controlpanel\Customerlistajax.aspx" />
+    <Content Include="Views\Controlpanel\Customer_List.ascx" />
+    <Content Include="Views\Controlpanel\CustomerList.aspx" />
+    <Content Include="Views\Controlpanel\DeletedCategories.aspx" />
+    <Content Include="Views\Controlpanel\Editproduct.aspx" />
+    <Content Include="Views\Controlpanel\Home.aspx" />
+    <Content Include="Views\Controlpanel\LatestNews.aspx" />
+    <Content Include="Views\Controlpanel\LatestNewsEvents.aspx" />
+    <Content Include="Views\Controlpanel\LogOn.aspx" />
+    <Content Include="Views\Controlpanel\ProductList.aspx" />
+    <Content Include="Views\Controlpanel\Products.aspx" />
+    <Content Include="Views\Controlpanel\CustomerProfile.aspx" />
+    <Content Include="Views\Controlpanel\TransactionList.aspx" />
+    <Content Include="Views\Controlpanel\TransactionListajax.aspx" />
+    <Content Include="Views\Controlpanel\Transaction_list.ascx" />
+    <Content Include="Views\Home\ContactUs.aspx" />
+    <Content Include="Views\Home\News.aspx" />
+    <Content Include="Views\Home\NewsandEvents.aspx" />
+    <Content Include="Views\Products\all.aspx" />
+    <Content Include="Views\Products\AllGardenNeeds.aspx" />
+    <Content Include="Views\Products\ExoticPlants.aspx" />
+    <Content Include="Views\Products\Gift-Plants.aspx" />
+    <Content Include="Views\Products\ImportExportPlants.aspx" />
+    <Content Include="Views\Products\Products.aspx" />
+    <Content Include="Views\Products\ProductsList.aspx" />
+    <Content Include="Views\Products\products_list.ascx" />
+    <Content Include="Views\Products\RentalPlants.aspx" />
+    <Content Include="Views\Shared\loadingpanel.ascx" />
+    <Content Include="Views\Shared\Status.aspx" />
+    <Content Include="Views\Shared\success.aspx" />
+    <Content Include="Views\Shared\success_small.aspx" />
+    <Content Include="Views\ShoppingCart\Checkout.aspx" />
+    <Content Include="Views\ShoppingCart\mycarts.ascx" />
+    <Content Include="Views\ShoppingCart\Offlinepayment.aspx" />
+    <Content Include="Views\ShoppingCart\PaymentOptions.aspx" />
+    <Content Include="Views\ShoppingCart\ViewCart.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target> -->
+  <Target Name="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(ProjectDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>3196</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <UserProperties OpenAccess_EnhancementOutputLevel="1" OpenAccess_UpdateDatabase="False" OpenAccess_Enhancing="False" OpenAccess_ConnectionId="DatabaseConnection1" OpenAccess_ConfigFile="Web.config" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

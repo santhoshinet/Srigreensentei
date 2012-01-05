@@ -39,7 +39,7 @@ namespace SriGreenShoppingCart.Controllers
         {
             var scope = ObjectScopeProvider1.GetNewObjectScope();
             ViewData["categories"] = (from c in scope.GetOqlQuery<Category>().ExecuteEnumerable()
-                                      where c.Deletedstatus == DeleteStatus.Working
+                                      where c.Deletedstatus == DeleteStatus.Working && c.Categorytype == Categorytype.General
                                       select c).ToList();
             return View();
         }

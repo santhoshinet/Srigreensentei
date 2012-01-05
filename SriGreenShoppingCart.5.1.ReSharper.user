@@ -9,8 +9,6 @@
   </SettingsComponent>
   <RecentFiles>
     <RecentFiles>
-      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Views/d:Controlpanel/f:CustomerProfile.aspx" caret="0" fromTop="0" />
-      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Views/d:Controlpanel/f:DeletedCategories.aspx" caret="0" fromTop="0" />
       <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Views/d:Controlpanel/f:Editproduct.aspx" caret="698" fromTop="15" />
       <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Views/d:Controlpanel/f:LatestNews.aspx" caret="748" fromTop="18" />
       <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Views/d:Controlpanel/f:LogOn.aspx" caret="670" fromTop="8" />
@@ -39,6 +37,8 @@
       <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Views/d:Home/f:NewsandEvents.aspx" caret="341" fromTop="8" />
       <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Controllers/f:HomeController.cs" caret="1180" fromTop="35" />
       <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Views/d:Home/f:News.aspx" caret="524" fromTop="13" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Scripts/f:Products.js" caret="0" fromTop="0" />
+      <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/f:Global.asax.cs" caret="1719" fromTop="32" />
     </RecentFiles>
     <RecentEdits>
       <File id="C3D308C0-7AB3-435F-9F23-88E100AD137A/d:Content/f:stylesheet.css" caret="5514" fromTop="18" />

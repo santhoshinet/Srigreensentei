@@ -5,7 +5,7 @@
     ImportExportPlants
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-<link href="/Content/special_page_products.css" rel="stylesheet" type="text/css" />
+    <link href="/Content/special_page_products.css" rel="stylesheet" type="text/css" />
     <div class="Content">
         <ul>
             <li>
@@ -24,6 +24,25 @@
                     Sri Green Sentei is in Export of Live Trees like Phoenix Palms, Borasus Palms and
                     Coconut palms etc.Also we do export of Many Plants and Tree Species.
                 </p>
+            </li>
+            <li>
+                <h3>
+                    Contact for your further Information and queries.</h3>
+            </li>
+            <li>
+                <p>
+                    SRI GREEN SENTEI<br />
+                    G&amp;H Udhayam Towers,<br />
+                    No.17, P.T. Rajan Salai,
+                    <br />
+                    KK Nagar, Chennai - 600078.<br />
+                    <br />
+                    Tel : +91 44 24899943
+                    <br />
+                    Fax: +91 44 42077128<br />
+                    <br />
+                    Email id: admin@srigreensentei.com<br />
+                    web: www.srigreensentei.com</p>
             </li>
             <% if (((List<Product>)ViewData["Products"]).Count > 0)
                {%>

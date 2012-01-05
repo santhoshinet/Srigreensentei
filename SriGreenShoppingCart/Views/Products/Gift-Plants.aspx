@@ -1,4 +1,5 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Shared/Site.Master" Inherits="System.Web.Mvc.ViewPage" %>
+
 <%@ Import Namespace="CCAvenueIntegrationDL" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="TitleContent" runat="server">
     Gift-Plants
@@ -38,6 +39,25 @@
                 <p>
                     Make your environment Green By developing the habit of gifting the live Plant.
                 </p>
+            </li>
+            <li>
+                <h3>
+                    Contact for your further Information and queries.</h3>
+            </li>
+            <li>
+                <p>
+                    SRI GREEN SENTEI<br />
+                    G&amp;H Udhayam Towers,<br />
+                    No.17, P.T. Rajan Salai,
+                    <br />
+                    KK Nagar, Chennai - 600078.<br />
+                    <br />
+                    Tel : +91 44 24899943
+                    <br />
+                    Fax: +91 44 42077128<br />
+                    <br />
+                    Email id: admin@srigreensentei.com<br />
+                    web: www.srigreensentei.com</p>
             </li>
             <% if (((List<Product>)ViewData["Products"]).Count > 0)
                {%>

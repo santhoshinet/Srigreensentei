@@ -33,7 +33,7 @@ namespace SriGreenShoppingCart.Models
     public class LatestnewsEventsModel
     {
         [Required]
-        [DataType(DataType.Text)]
+        [DataType(DataType.Html)]
         [DisplayName("Latest news")]
         public string Latestnews { get; set; }
     }

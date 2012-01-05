@@ -31,10 +31,22 @@ namespace SriGreenShoppingCart.Controllers
 
         public ActionResult News()
         {
+            PutNewsAndEventsinView();
             return View();
         }
 
         public ActionResult NewsandEvents()
+        {
+            PutNewsAndEventsinView();
+            return View();
+        }
+
+        public ActionResult ContactUs()
+        {
+            return View();
+        }
+
+        private void PutNewsAndEventsinView()
         {
             ViewData["LatestNews"] = "";
             var scope = ObjectScopeProvider1.GetNewObjectScope();
@@ -44,12 +56,6 @@ namespace SriGreenShoppingCart.Controllers
             {
                 ViewData["LatestNews"] = latestNewses[0].NewsandEvents;
             }
-            return View();
-        }
-
-        public ActionResult ContactUs()
-        {
-            return View();
         }
     }
 }

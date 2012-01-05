@@ -79,12 +79,11 @@ BODY
 {
 	padding-right: 0px;
 	padding-left: 0px;
-	font-weight: bold;
-	font-size: 11px;
+	font-size: 13px;
 	padding-bottom: 0px;
 	color: #003F80;
 	padding-top: 0px;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: Calibri;
 }
 .loginContent
 {
@@ -372,4 +371,22 @@ INPUT[type="button"], INPUT[type="submit"]
 	color: #8FA971;
 	margin-top: 20px;
 	margin: 10px;
+}
+.headers
+{
+	margin-left: 25px;
+	background: #080808;
+	padding-left: 10px;
+	margin-bottom: 5px;
+}
+.headers A
+{
+	text-decoration: none;
+	color: #AAA;
+}
+.headers P
+{
+	padding: 0px;
+	margin: 0px;
+	margin-left: 10px;
 }

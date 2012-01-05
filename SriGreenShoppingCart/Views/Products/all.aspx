@@ -11,28 +11,25 @@
                 <h2>
                     Available plants with us</h2>
             </li>
-            <% var categiries = (List<Category>)ViewData["categories"];%>
-            <% if (categiries.Count > 0)
-               {
-                   foreach (var category in categiries)
-                   {
-
-            %>
             <li>
-                <h4>
+                <% var categiries = (List<Category>)ViewData["categories"];%>
+                <% if (categiries.Count > 0)
+                   {
+                       foreach (var category in categiries)
+                       {
+                %>
+                <div class="headers">
                     <a href="/Products/<%= category.Name %>">
                         <%= category.Name %>
                     </a>
-                </h4>
+                    <p>
+                        <%= category.Description %>
+                    </p>
+                </div>
+                <%
+                    }
+                   }%>
             </li>
-            <li>
-                <p>
-                    <%= category.Description %>
-                </p>
-            </li>
-            <%
-                }
-               }%>
         </ul>
     </div>
 </asp:Content>

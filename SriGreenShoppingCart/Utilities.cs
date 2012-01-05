@@ -1,5 +1,4 @@
-﻿
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace SriGreenShoppingCart
 {
@@ -7,6 +6,6 @@ namespace SriGreenShoppingCart
     {
         public static string Gmailid = "support@domain2host.in";
         public static string Gmailpassword = "Indbas80I";
-        public static List<string> Srigreenmails = new List<string>() { "santhoshonet@gmail.com" };
+        public static List<string> Srigreenmails = new List<string>() { "admin@srigreensentei.com" };
     }
 }
